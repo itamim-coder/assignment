@@ -10,7 +10,7 @@ body{
     padding-top: 1%;
     width: 100%;
     text-align: center;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(44, 38, 38);
     color: rgb(255, 255, 255);
     font-family: Lucida Handwriting;
    
@@ -20,13 +20,16 @@ body{
     display: flex;
     width: 100%;
     background-image: url(images/food/Project\ Cover4.png);
+    background-blend-mode: darken;
 }
 h1{
     font-size: 50px;
-    margin-left: 5%;
-    
+    margin-left: 5%;   
 }
-
+h3{
+    
+    font-weight: 600;
+}
 
 .cyan{
     color: rgb(121, 251, 255);
@@ -34,18 +37,6 @@ h1{
 .orange{
     color: orangered;
 }
-h3{
-    
-    font-weight: 600;
-}
-
-p  {
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 50px;
-        font-weight: 600;
-    }
-
 .half-heading{
     width: 50%;
     margin-top: 5%;
@@ -57,12 +48,23 @@ p  {
     margin-left: 30%;
     
 }
-.plan-button{
+
+p  {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 50px;
+        font-weight: 600;
+    }
+.p-color{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}      
+.button{
     text-decoration: none;
     background-image: linear-gradient(rgb(139, 212, 155), green);
     padding:10px 15px;
     border-radius: 15px;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     margin-left: 5%;
 }
@@ -93,8 +95,7 @@ p  {
 
 }
 
-
-.pro{
+.category{
     width: 20%;  
     text-align: center;
     margin-left: 10%;
@@ -102,7 +103,7 @@ p  {
     border-radius: 20px;
    
 }
-.pro img{
+.category img{
     width: 80%;
     margin-top: 10%;
 }
@@ -127,15 +128,20 @@ p  {
     
 }
 .reserve{
+    text-align: center;
+    font-family: monospace;
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: crimson;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(183, 245, 12);
+    color: rgb(85, 97, 30);
+    background-image: url(images/food/Project\ Cover7.png);
 }
 .sign-up{
     text-align: center;
+    padding-top: 2%;
     padding-bottom: 2%;
-    background-color: rgb(243, 239, 239);
+    background-color: rgb(182, 131, 131);
     font-family: cursive;
     
 }
